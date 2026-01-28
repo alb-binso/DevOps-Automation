@@ -435,3 +435,16 @@ For issues or questions:
 - Basic ETL with hardcoded status map
 - Type filter (1,2,3,4 only)
 - Limited update detection
+
+### Notes & Best Practices
+
+Recommended to run during low traffic hours
+
+Ensure DynamoDB scan limits are acceptable for large datasets
+
+Consider adding CloudWatch logging for production usage
+
+### Author
+Leo
+Backend / Data Engineer
+ETL • AWS • PostgreSQL • Python

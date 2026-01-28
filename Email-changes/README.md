@@ -165,3 +165,8 @@ flowchart TD
 4. Update DynamoDB (non-live)
 5. Confirm & update LIVE DynamoDB
 6. Print final migration summary
+
+### Author
+Leo
+Backend / Data Engineer
+ETL • AWS • PostgreSQL • Python

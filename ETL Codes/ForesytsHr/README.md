@@ -1,11 +1,11 @@
-DynamoDB to PostgreSQL ETL
-Overview
+### DynamoDB to PostgreSQL ETL
+### Overview
 
 This project is a Python-based ETL (Extract, Transform, Load) script that migrates data from AWS DynamoDB tables into a PostgreSQL database.
 
 It is designed for the Tymeplus / Foresyts HR domain, handling multiple master and transactional tables while preserving referential integrity, handling pagination, and performing upserts (insert or update on conflict).
 
-Features
+### Features
 
 ✅ Secure configuration using .env
 
@@ -266,7 +266,7 @@ Database connections are always closed safely.
 
 Sample Console Output
 ============================================================
-DynamoDB to PostgreSQL ETL Process
+### DynamoDB to PostgreSQL ETL Process
 ============================================================
 ✓ Connected to PostgreSQL
 ✓ Tables created/verified
@@ -281,7 +281,7 @@ DynamoDB to PostgreSQL ETL Process
 ⚠ Skipping leave record for non-existent/inactive employee: U123
 ✓ Migrated 1,420 leave records
 
-✓ ETL Process Completed Successfully!
+### ✓ ETL Process Completed Successfully!
 ============================================================
 ✓ Database connections closed
 
@@ -295,7 +295,7 @@ Disable specific migrations by commenting methods in run()
 
 Schedule execution via cron / Airflow / Jenkins
 
-Notes & Best Practices
+### Notes & Best Practices
 
 Recommended to run during low traffic hours
 
@@ -303,8 +303,7 @@ Ensure DynamoDB scan limits are acceptable for large datasets
 
 Consider adding CloudWatch logging for production usage
 
-Author
-
+### Author
 Leo
 Backend / Data Engineer
 ETL • AWS • PostgreSQL • Python
